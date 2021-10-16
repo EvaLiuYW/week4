@@ -13,7 +13,6 @@ void setup() {
 
   int x = 50;
   for (int i = 0; i < message.length (); i ++ ) {
-    // 输入字符的坐标信息和内容
     letters[i] = new Letter(x, height/2, message.charAt(i));
     x += textWidth(message.charAt(i));
   }
